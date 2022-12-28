@@ -1,0 +1,395 @@
+body
+{
+    perspective: 650px;
+    overflow-x: hidden;
+    
+}
+.wave
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+
+}
+.list
+{
+  background-color: #8a2be2;
+}
+a
+{
+    color: rgb(228, 215, 228);
+}
+.nav-link:hover , .article-link:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
+nav{
+  margin-bottom: 11rem;
+}
+
+.background1
+{
+    height: 600px; 
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    width: 100%; 
+    overflow-y: hidden;
+}
+@media only screen and (max-width: 1600px) {
+  @keyframes example 
+  {
+      0% {top: 82%;}
+      50%{top:84%}
+      100%{top:82%}
+  }
+}
+.brife
+{
+  font-size: x-large;
+  color: #737373;
+}
+.s-hr
+{
+    width: 50px;
+    height: 2px;
+    background-color: whitesmoke;
+}
+.card
+{
+    background-color: #8a2be2;
+    border-radius: 20px; 
+    color:whitesmoke; 
+    text-align: center;
+    box-shadow: #8a2be2 0px 5px 15px;
+    margin: 30px;
+    border: none;
+    overflow: hidden;
+
+}
+.card:hover
+{
+    background-color: #7929c4; 
+    box-shadow: #8a2be2 0px 5px 20px;
+}
+.card-btn
+{
+    background-color: #b17fe0; 
+    width: 155px;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.card-btn:hover
+{
+    background-color: #c18bf3; 
+    color: whitesmoke;
+}
+.card-btn:active
+{
+  color: rgb(126, 125, 125);
+}
+.articles
+{
+    padding-left:200px ;
+    height: 300px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    margin-right: 20px;
+}
+/*scroller************/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  html{
+    scrollbar-track-color: #f1f1f1;
+    scrollbar-width: 10px;
+  }
+
+  /****************************************/
+.article-card
+{
+    background: linear-gradient(85deg,#8a2be2,#6c25af);
+    border-radius: 20px; 
+    color:whitesmoke; 
+    width: 300px;
+    padding: 1.5rem;
+    box-shadow: -3rem 0 3rem -2rem #000;
+    margin-left: -130px;
+    display: inline-block;
+}
+h4{
+    margin-top: 5rem;
+    text-align: left;
+}
+.writer
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    margin-left: 15px;
+}
+.writer-row
+{
+    margin-top: 5rem;
+}
+.iden
+{
+    color:#8a2be2; 
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    font-size: 20px;
+}
+.team-member
+{
+    
+    width: 80px;
+    position: absolute;
+    top: -15%;
+    left: 35%;
+    border-radius: 60px;
+}
+.underline
+{
+    text-decoration: underline;
+    text-underline-offset:8px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.member-name
+{
+    text-transform: uppercase;
+}
+.card2
+{
+    background-color: #8a2be2;
+    border-radius: 20px; 
+    color:whitesmoke; 
+    text-align: center;
+    box-shadow: #8a2be2 0px 5px 15px;
+    font-size: 20px;
+}
+/************article page***********/
+article
+{
+  padding: 4rem;
+}
+.art-card
+{
+  padding: 0%;
+  overflow: hidden;
+}
+/*******************category******************************/
+.pro-link
+{
+  text-align: start;
+}
+.pro-link:hover
+{
+  color: #c5c7c9;
+  text-decoration: none;
+}
+/************************contactus*****************/
+.contact-background
+{
+    position: fixed;
+    z-index: -1;
+    width: 100%; 
+    height: 600px;
+    overflow: hidden;
+}
+form{
+  margin-top: 10rem;
+}
+/*footer*******************************************************/
+.site-footer
+{
+  margin-top: 5rem;
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color: #8a2be2;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#8a2be2;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

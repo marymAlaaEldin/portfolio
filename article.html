@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Name not defined!</title>
+        <link rel="stylesheet" href="bootstrap/mybootstrap.css">
+        <link href="fontawesome/all.css">
+        <script src="fontawesome/all.js"></script>
+        <script src="jquery&favicon/jquery.js"></script>
+        <script src="bootstrap/slim.js"></script>
+        <script src="bootstrap/mybootstrap.js"></script>
+        <link rel="stylesheet" href="WOW-20848c410fe32d161c2330e1d261b59512094f81/WOW-20848c410fe32d161c2330e1d261b59512094f81/css/libs/animate.css">
+        <link rel="stylesheet" href="WOW-20848c410fe32d161c2330e1d261b59512094f81/WOW-20848c410fe32d161c2330e1d261b59512094f81/css/site.css">
+        <script src="WOW-20848c410fe32d161c2330e1d261b59512094f81/WOW-20848c410fe32d161c2330e1d261b59512094f81/dist/wow.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="jssheet.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="imgs/wave.svg" class="wave"/>
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="#">Name Not Defined!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars list-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="books.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+              <div class="container header-main" >
+                  <h1><strong>Article Name</strong></h1>
+                  <span><small> category name</small></span>
+                  <br>
+                  <span><small> writer name</small></span>
+              </div>
+        </header>
+        <div class="container iden mt-5 mb-5 ">
+            <article>
+                Robin Weser’s “The Shorthand-Longhand Problem in Atomic CSS” in an interesting journey through a tricky problem. The point is that when you take on the job of converting something HTML and CSS-like into actual HTML and CSS, there are edge cases that you’ll have to program yourself out of, if you even can at all. In this case, Fela (which we just mentioned), turns CSS into “atomic” classes, but when you mix together shorthand and longhand, the resulting classes, mixed with the cascade, can cause mistakes.
+                Atomic CSS means one class = one job
+                Like this:
+                Now imagine, like, thousands of those that are available to use and can do just about anything CSS can do.
+                Why would you do that?
+                Here’s some reasons:
+                If you go all-in on that idea, it means that you’ll ship less CSS because there are no property/value pairs that are repeated, and there are are no made-up-for-authoring-reasons class names. I would guess an all-atomic stylesheet (trimmed for usage, which we’ll get to) is a quarter the size of a hand-authored stylesheet, or smaller. Shipping less CSS is significant because CSS is a blocking resource.
+                You get to avoid naming things.
+                You get some degree of design consistency “for free” if you limit the available classes.
+                Some people just prefer it and say it makes them faster.
+                How do you get Atomic CSS?
+                There is nothing stopping you from just doing it yourself. That’s what GitHub did with Primer and Facebook did in FB5 (not that you should do what mega corporations do!). They decided on a bunch of utility styles and shipped it (to themselves, largely) as a package.
+                Perhaps the originator of the whole idea was Tachyons, which is a just a big ol’ opinionated pile of classes you can grab as use as-is.
+                But for the most part…
+                Tailwind is the big player.
+                Tailwind has a bunch of nice defaults, but it does some very smart things beyond being a collection of atomic styles:
+                It’s configurable. You tell it what you want all those classes to do.
+                It encourages you to “purge” the unused classes. You really need to get this part right, as you aren’t really getting the benefit of Atomic CSS if you don’t.
+                It’s got a UI library so you can get moving right away.
+                Wait weren’t we talking about automatically-generated Atomic CSS?
+                Oh right.
+                It’s worth mentioning that Yahoo was also an early player here. Their big idea is that you’d essentially use functions as class names (e.g. class="P(20px)") and that would be processed into a class (both in the HTML and CSS) during a build step. I’m not sure how popular that got really, but you can see how it’s not terribly dissimilar to Tailwind + PurgeCSS.
+                These days, you don’t have to write Atomic CSS to get Atomic CSS. From
+            </article>
+        </div>
+          <!-- Site footer -->
+          <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify"> upcoming programmers with the code. we focuses on providing the most efficient code or snippets as the code wants to be simple. We will help you to build powerfull project </p>
+                    </div>
+        
+                    <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">web development</a></li>
+                        <li><a href="#">embaded system</a></li>
+                        <li><a href="#">mobile development</a></li>
+                        <li><a href="d">4</a></li>
+                    </ul>
+                    </div>
+        
+                    <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="f">About Us</a></li>
+                        <li><a href="r">Contact Us</a></li>
+                        <li><a href="f">Articles</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <hr>
+                </div>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+                        <a href="#">Name Not Defined!</a>.
+                    </p>
+                    </div>
+        
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook " href="#"><i class="fab fa-facebook-f mt-1"></i></a></li>
+                        <li><a class="twitter " href="#"><i class="fab fa-twitter mt-1"></i></a></li>
+                        <li><a class="linkedin " href="#"><i class="fab fa-linkedin mt-1"></i></a></li>   
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
