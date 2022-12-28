@@ -1,6 +1,9 @@
 # portfolio
 front-end portfolio UI template 
 
+## TOOLS
+HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP
+
 ## HOME PAGE
 ![Web capture_28-12-2022_142734_](https://user-images.githubusercontent.com/48493903/209812303-d36f8957-b524-4920-aa69-966dd179cb3d.jpeg)
 
